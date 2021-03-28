@@ -87,6 +87,9 @@ Train a depth reconstruction model (FusionNet) using RGB images and newly calcul
 
 ## Testing
 Create grid patterns using `create_patterns.py` and using them to train a depth reconstruction model (FusionNet) - DepthReconGrid.
+
 Create Superpixels patterns using `SPsampling/SPmask.m` and using them to train a depth reconstruction model (FusionNet) - DepthReconSP.
+
 Define paths of the trained depth reconstruction networks (DepthReconRand, DepthReconGrid, DepthReconSP, DepthReconImp) in `func/utils.net_paths`.
+
 Use `results.py` to plot the reconstruction error of each of the patterns.
