@@ -14,7 +14,7 @@ root
 |  |  ├──1000000.png
 |  |  ├──1000001.png
 |  |  └──...     
-|  ├──ImpMaps   # calculated
+|  ├──ImpMaps   # calculated in this process
 |  |  ├──impmaps1
 |  |  |  ├──1000000.png
 |  |  |  ├──1000001.png
@@ -24,7 +24,7 @@ root
 |  |  |  ├──1000001.png
 |  |  |  └──...
 |  |  └──...
-|  └──LiDAR     # calculated
+|  └──LiDAR     # calculated in this process
 |     ├──lidar1
 |     |  ├──1000000.png
 |     |  ├──1000001.png
@@ -35,7 +35,7 @@ root
 |     |  └──...
 |     └──...
 ├──validation
-|  └... (same composition as train)
+|  └... # same composition as train
 └──test
-   └... (same composition as train)
+   └... # same composition as train
 </pre>
