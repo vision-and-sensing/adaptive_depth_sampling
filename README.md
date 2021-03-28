@@ -4,7 +4,6 @@ Error Prediction for Adaptive Depth Sampling
 ## Directory Structure
 txt
 <pre>
-'''bash
 |--train
 |  |--RGB       # required
 |  |  |--1000000.png
@@ -34,5 +33,4 @@ txt
 |  |  |  |--1000001.png
 |  |  |  └--...
 |  |  └--...
-'''
 </pre>
