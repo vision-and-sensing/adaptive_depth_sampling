@@ -21,7 +21,7 @@ In this work we use two networks:
 
 
 ## Directory Structure
-This section describes the dataset directory structure that is required to use our code. Note that RGB (images) and GT (dense depth ground truth maps) directories are required to be placed under train, validation, and test directories, while ImpMaps and LiDAR directories will be created during the execution of our algorithm.
+In this section we describe the dataset directory structure that is required to use our code. Note that RGB (images) and GT (dense depth ground truth maps) directories are required to be placed under train, validation, and test directories, while ImpMaps and LiDAR directories will be created during the execution of our algorithm. RGB and GT folders should contain identically named files for images that describe the same scene. The directory structure should be as follows:
 <pre>
 root
 ├──train
