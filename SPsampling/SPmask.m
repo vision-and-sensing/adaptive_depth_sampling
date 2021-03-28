@@ -1,5 +1,5 @@
 % parameters
-samp_perc = 0.00125;
+samp_perc = 0.01;
 
 N = round(760*1280*samp_perc);   % num of samples
 %thr = 100;           % threshold [m]
