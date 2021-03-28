@@ -77,7 +77,7 @@ Use `ImpMaps.py` to calculate importance maps (statistical error) for each scene
 Now that we have {RGB, ImpMap} pairs, train an image-to-image translation network model (Pix2PixHD) to generate importance maps based on RGB images (RGB2Imp).
 
 ### Step 4 - ImpMaps generation
-Use the newly trained RGB2Imp model in inference mode to generate importance maps for each RGB image in the dataset. The process is done separately for each of the sets in the dataset and we are required to copy and rename the generated importance maps to ImpMaps directory in the corresponding set. In this process, after generating ImpMaps of a set, `cpy_maps.py` can be used to rename and copy the result. Please delete the results folder in the Pix2PixHD root directory after generating importance maps and running `cpy_maps.py` (between sets) to avoid copying unrelated images.
+Use the newly trained RGB2Imp model in inference mode to generate importance maps for all RGB images. The process is done separately for each of the sets in the dataset and we are required to copy and rename the generated importance maps to ImpMaps directory in the corresponding set. In this process, after generating ImpMaps of a set, `cpy_maps.py` can be used to rename and copy the result. Please delete the results folder in the Pix2PixHD root directory after generating importance maps and running `cpy_maps.py` (between sets) to avoid copying unrelated images.
 
 ### Step 5 - Gaussian Sampling
 Use `ImpMaps2samp.py` to calculate sparse depth maps based on the newly generated importance maps.
