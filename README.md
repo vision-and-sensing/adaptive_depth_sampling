@@ -13,10 +13,11 @@ conda activate py37
 </pre>
 
 In this work we use two networks:
-<pre>
-*FusionNet - a depth completion network by Van Gansbeke et al.: https://github.com/wvangansbeke/Sparse-Depth-Completion
-*Pix2PixHD - an image-to-image translation network by Wang et al.: https://github.com/NVIDIA/pix2pixHD
-</pre>
+
+* [FusionNet](https://github.com/wvangansbeke/Sparse-Depth-Completion) - a depth completion network by Van Gansbeke et al.
+
+* [Pix2PixHD](https://github.com/NVIDIA/pix2pixHD) - an image-to-image translation network by Wang et al.
+
 
 ## Directory Structure
 The directory structure is as follows:
