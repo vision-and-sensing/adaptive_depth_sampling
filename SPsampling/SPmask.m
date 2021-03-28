@@ -3,8 +3,7 @@ samp_perc = 0.00125;
 
 N = round(760*1280*samp_perc);   % num of samples
 %thr = 100;           % threshold [m]
-%sets = {'train','validation','test'};
-sets = {'test'};
+sets = {'train','validation','test'};
 
 for set_ind = 1:length(sets) 
     set = sets{set_ind};
