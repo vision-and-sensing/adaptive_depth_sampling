@@ -1,5 +1,4 @@
 # Error Prediction for Adaptive Depth Sampling
-## Into
 This repository contains the python implementation of "Error Prediction for Adaptive Depth Sampling" research by Ilya Tcenov and Prof. Guy Gilboa, Electrical Engineering Faculty, Technion, Israel.
 
 A paper will be available soon.
