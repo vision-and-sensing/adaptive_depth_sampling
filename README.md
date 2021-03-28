@@ -3,6 +3,7 @@ Error Prediction for Adaptive Depth Sampling
 
 ## Directory Structure
 txt
+<pre>
 '''bash
 |--train
 |  |--RGB       # required
@@ -34,3 +35,4 @@ txt
 |  |  |  └--...
 |  |  └--...
 '''
+</pre>
