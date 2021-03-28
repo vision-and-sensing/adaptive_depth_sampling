@@ -3,7 +3,7 @@ Error Prediction for Adaptive Depth Sampling
 
 ## Directory Structure
 txt
-'''
+'''bash
 |--train
 |  |--RGB       # required
 |  |  |--1000000.png
