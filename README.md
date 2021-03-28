@@ -1,7 +1,8 @@
 # Error Prediction for Adaptive Depth Sampling
 ## Into
 This repository contains the python implementation of "Error Prediction for Adaptive Depth Sampling" research by Ilya Tcenov and Prof. Guy Gilboa, Electrical Engineering Faculty, Technion, Israel.
-(A paper will be available soon)
+
+A paper will be available soon.
 
 ## Setup
 Clone repo and activate conda environment as follows:
@@ -20,7 +21,7 @@ In this work we use two networks:
 
 
 ## Directory Structure
-The directory structure is as follows:
+This section describes the dataset directory structure that is required to use our code. Note that RGB (images) and GT (dense depth ground truth maps) directories are required to be placed under train, validation, and test directories, while ImpMaps and LiDAR directories will be created during the execution of our algorithm.
 <pre>
 root
 ├──train
