@@ -34,4 +34,8 @@ root
 |     |  ├──1000001.png
 |     |  └──...
 |     └──...
+├──validation
+|  └... (same composition as train)
+└──test
+   └... (same composition as train)
 </pre>
